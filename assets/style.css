@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f9f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav.menu {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    max-height: 56px;
+}   
+
+nav.menu .menu-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25em;
+}
+
+nav.menu .menu-logo button.hamburguer {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+nav.menu img {
+    width: 5.625em;
+}
+
+nav.menu .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 404px;
+    height: 40px;
+}
+
+nav.menu .search-bar form {
+    display: flex;
+    width: 100%; 
+    height: 100%;
+}
+
+nav.menu .search-bar input.bar-search {
+    border: 1px solid #cccccc;
+    font-size: 1em;
+    padding: 1em;
+    width: 85%;
+}
+
+nav.menu .search-bar button[type="submit"] {
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+
+nav.menu .user-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+nav.menu .user-options img {
+    border-radius: 100%;
+    width: 34px;
+    height: 34px;
+}
+
+div.container {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
+
+main.video-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 1em;
+    width: 70%;
+}
+
+main.video-content .video {
+    display: block;
+    position: relative;
+    padding-top: 56.25%;
+    width: 100%;
+}
+
+main.video-content .video iframe {
+    border-radius: 1em;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+main.video-content .channel-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main.video-content .subscribe-channel {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+main.video-content .subscribe-channel img {
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+
+main.video-content .subscribe-channel h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    font-weight: 600;
+} 
+
+main.video-content .subscribe-channel span {
+    color: #515151;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+main.video-content .subscribe-channel button {
+    border: none;
+    border-radius: 2px;
+    background: #CC0000;
+    color: #fff;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+main.video-content .interactions {  
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+main.video-content .btn-interaction {
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding: 0.5em;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+main.video-content .views-date {
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+main.video-content .description {
+    color: #515151;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-align: left;
+    width: 60%;
+}
+
+aside.list-videos {
+    width: 30%;
+    padding: 0.5em;
+}
+
+aside.list-videos .list-videos-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    list-style: none;
+}
+
+aside.list-videos li.video-item {
+    display: flex;
+    gap: 0.5em;
+}
+
+aside.list-videos li.video-item img {
+    display: block;
+    width: 160px;
+    height: 90px;
+}
+
+aside.list-videos .video-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    padding: 0.3em;
+    width: 100%;
+}
+
+aside.list-videos li.video-item h2 {
+    font-size: 0.8em;
+}
+
+aside.list-videos li.video-item p {
+    font-size: 0.75em;
+}
